@@ -19,7 +19,7 @@
     border-radius: 4%;
     width: 400px;
     height: 500px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 #display-box {
@@ -32,7 +32,7 @@
     width: 340px;
     height: 55px;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: whitesmoke;
 }
 
 #screen {
@@ -50,7 +50,7 @@
     width: 340px;
     height: 245px;
     flex-wrap: wrap;
-    background-color: lightgray;
+    background-color: white;
 }
 .row {
     display: flex;
@@ -84,21 +84,24 @@
 }
 
 .operators {
-    color: orangered;
+    color: white;
+    background-color: black;
 }
 
 
 .buttons:hover {
     background-color: white;
-    border-color: orangered;
-    color: orangered;
+    border-color: darkgrey;
+    color: black;
     font-weight: bold;
     cursor: pointer;
 }
 
 .special-btns {
-    background-color: orangered;
+    background-color: white;
+    color: black;
 }
+
 
 .buttons:active {
     box-shadow: 0 5px lightgray;
