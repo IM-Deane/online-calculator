@@ -1,0 +1,106 @@
+* root {
+    box-sizing: border-box;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 5px black;
+    border-radius: 4%;
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+#display-box {
+    justify-self: flex-start;
+    align-content: center;
+    display: flex;
+    justify-content: flex-end;
+    border: solid 3px black;
+    border-radius: 4px;
+    width: 340px;
+    height: 55px;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+#screen {
+    padding-right: 5px;
+    font-size: 40px;
+}
+
+#button-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 3px black;
+    border-radius: 4px;
+    width: 340px;
+    height: 245px;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 6px 0 10px 0;
+}
+
+#title-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    flex-shrink: 1;
+}
+
+
+#title {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.buttons {
+    border: thin 5px black;
+    border-radius: 4%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 60px;
+}
+
+.operators {
+    color: orangered;
+}
+
+
+.buttons:hover {
+    background-color: white;
+    border-color: orangered;
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.special-btns {
+    background-color: orangered;
+}
+
+.buttons:active {
+    box-shadow: 0 5px lightgray;
+    transform: translateY(4px);
+  }
